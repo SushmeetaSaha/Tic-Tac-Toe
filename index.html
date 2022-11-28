@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe</title>
+</head>
+
+<body>
+  <nav>WELCOME TO TIC TAC TOE</nav>
+  <div class="board">
+    <div class="container">
+      <div id="item1"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item2"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item3"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item4"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item5"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item6"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item7"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item8"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+      <div id="item9"><svg viewBox="0 0 100 100" class="item" onclick="set(event)"></svg></div>
+    </div>
+    <div id="hello" style="text-align: center;">
+      <h1 class="announse">Chance Of</h1>
+      <h3>
+        <svg id="chance" viewBox="0 0 100 100">
+          <line stroke="black" x1="10" y1="10" x2="90" y2="90" stroke-width="3px"></line>
+          <line stroke="black" x1="90" y1="10" x2="10" y2="90" stroke-width="3px"></line>
+        </svg>
+      </h3>
+      <strong class="result" style="display: none;">Wins the Game</strong>
+      <button class="restart" onclick="window.location.reload()">Restart</button>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="script.js"></script>
